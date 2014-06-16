@@ -1,0 +1,26 @@
+{
+  "name": "origami-ui",
+  "version": "0.0.0",
+  "description": "Origami UI ------",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiyinyiyong/origami-ui.git"
+  },
+  "keywords": [
+    "ui"
+  ],
+  "author": "jiyinyiyong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jiyinyiyong/origami-ui/issues"
+  },
+  "homepage": "https://github.com/jiyinyiyong/origami-ui",
+  "devDependencies": {
+    "mission": "0.0.7-2",
+    "shelljs": "^0.3.0"
+  }
+}
