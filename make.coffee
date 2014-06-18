@@ -70,7 +70,7 @@ target.watch = ->
 
 target.patch = ->
   mission.bump
-    file: 'package.json'
+    files: ['package.json', 'bower.json']
     options:
       at: 'patch'
 

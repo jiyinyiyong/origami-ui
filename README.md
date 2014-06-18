@@ -20,6 +20,10 @@ bower install --save origami-ui
 
 Check `lib/` for modules that you may need.
 
+### Browser Compatibility
+
+Chrome Stable Latest, Firefox Latest.
+
 ### License
 
 MIT
