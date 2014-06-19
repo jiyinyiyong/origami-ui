@@ -34,8 +34,7 @@
   align-items: center;
 }
 
-.column-strech > .flex-fill,
-.row-strech > .flex-fill {
+.flex-fill {
   -webkit-flex: 1;
   flex: 1;
 }
