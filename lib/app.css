@@ -2,7 +2,6 @@
 .app-root {
     height: 100%;
     width: 100%;
-    background-color: rgba(134, 54, 54, 0.31);
 }
 
 .app-sidebar {
@@ -10,27 +9,3 @@
 }
 
 .app-body {}
-
-.topic-item {
-    padding: 6px 9px;
-    cursor: pointer;
-}
-
-.topic-item.topic-reading,
-.topic-item:hover {
-    background: rgba(241, 226, 193, 0.27);
-}
-
-.topic-username {
-    margin-right: 20px;
-}
-
-.topic-time {}
-
-.message-item {}
-
-.message-username {
-    width: 100px;
-}
-
-.message-text {}
