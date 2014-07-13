@@ -21,6 +21,7 @@
 .column-center,
 .column-middle,
 .column-start,
+.column-end,
 .column-align,
 .column-between,
 .column-around {
@@ -60,17 +61,20 @@
   align-items: stretch;
 }
 
-.row-start {
+.row-start,
+.column-start {
   -webkit-justify-content: flex-start;
   justify-content: flex-start;
 }
 
-.row-end {
+.row-end,
+.column-end {
   -webkit-justify-content: flex-end;
   justify-content: flex-end;
 }
 
-.row-align {
+.row-align,
+.column-align {
   -webkit-justify-content: flex-start;
   justify-content: flex-start;
 
@@ -78,12 +82,14 @@
   align-items: flex-start;
 }
 
-.row-between {
+.row-between,
+.column-between {
   -webkit-justify-content: space-between;
   justify-content: space-between;
 }
 
-.row-around {
+.row-around,
+.column-around {
   -webkit-justify-content: space-around;
   justify-content: space-around;
 }
