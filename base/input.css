@@ -1,0 +1,15 @@
+
+/* http://css-tricks.com/snippets/css/style-placeholder-text/ */
+::-webkit-input-placeholder { color: color: hsla(0,0%,100%,0.8); }
+:-moz-placeholder { color: color: hsla(0,0%,100%,0.8); } /* Firefox 18- */
+::-moz-placeholder { color: color: hsla(0,0%,100%,0.8); } /* Firefox 19+ */
+:-ms-input-placeholder { color: color: hsla(0,0%,100%,0.8); }
+
+input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.55);
+    line-height: 1;
+    padding: 0.3em 0.4em;
+}

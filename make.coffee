@@ -17,12 +17,6 @@ target.folder = ->
     coffee: {'main.coffee': ''}
     css: {'style.css': ''}
 
-target.coffee = ->
-  mission.coffee
-    find: /\.coffee$/, from: 'coffee/', to: 'js/', extname: '.js'
-    options:
-      bare: yes
-
 cirru = (data) ->
   mission.cirruHtml
     file: 'index.cirru'
@@ -31,23 +25,11 @@ cirru = (data) ->
     extname: '.html'
     data: data
 
-browserify = (callback) ->
-  mission.browserify
-    file: 'main.js', from: 'js/', to: 'build/', done: callback
-
-target.cirru = -> cirru inDev: yes
-target.cirruBuild = -> cirru inBuild: yes
-target.browserify = -> browserify()
-
 target.dev = ->
   cirru inDev: yes
-  target.coffee yes
-  browserify()
 
 target.build = ->
   cirru inBuild: yes
-  target.coffee yes
-  browserify()
 
 target.watch = ->
   station = mission.reload()
@@ -59,14 +41,6 @@ target.watch = ->
         when '.cirru'
           cirru inDev: yes
           station.reload project
-        when '.coffee'
-          filepath = path.relative 'coffee/', filepath
-          mission.coffee
-            file: filepath, from: 'coffee/', to: 'js/', extname: '.js'
-            options:
-              bare: yes
-          browserify ->
-            station.reload project
 
 target.patch = ->
   mission.bump

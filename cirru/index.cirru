@@ -7,12 +7,8 @@ html
     meta (:charset utf-8)
     meta (:name description)
       :content "A personal UI collection for single page apps."
-    link (:rel stylesheet) (:href css/style.css)
+    link (:rel stylesheet) (:href style.css)
     link (:rel icon) (:type image/png) (:href png/origami.png)
-    @if (@ inDev) $ @block
-      link (:rel stylesheet) (:href css/dev.css)
-    @if (@ inBuild) $ @block
-      link (:rel stylesheet) (:href css/build.css)
 
   body
     a (:target _blank)
