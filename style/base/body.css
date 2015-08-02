@@ -1,0 +1,13 @@
+
+body {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+body * {
+    box-sizing: border-box;
+    /* box-shadow: 0 0 1px hsla(0, 0%, 0%, 0.1); */
+}

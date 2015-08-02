@@ -1,0 +1,16 @@
+
+.heading {
+    margin: 1em 0;
+    font-weight: bold;
+}
+
+.heading.level-1 {
+  font-size: 22px;
+}
+
+.heading.level-2 {
+    font-size: 18px;
+}
+
+.heading.level-3 {
+}

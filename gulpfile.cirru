@@ -14,10 +14,10 @@ gulp.task :rsync $ \ (cb)
   wrapper.rsync
     object
       :ssh true
-      :src $ array :index.html :build
+      :src $ array :index.html :build :style
       :recursive true
       :args $ array :--verbose
-      :dest :tiye:~/repo/workflow/
+      :dest :tiye:~/repo/origami-ui/origami-ui
       :deleteAll true
     \ (error stdout stderr cmd)
       if (? error)

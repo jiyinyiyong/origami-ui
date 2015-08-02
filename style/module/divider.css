@@ -1,0 +1,7 @@
+
+.divider.is-vertical {}
+
+.divider.is-horizontal {
+    height: 1px;
+    background-color: hsla(0, 0%, 0%, 0.1);
+}

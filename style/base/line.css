@@ -1,0 +1,12 @@
+
+.line {}
+
+.line.is-minor {
+    color: hsla(0, 0%, 0%, 0.5);
+}
+
+.line > * + div,
+.line > * + input,
+.line > * + span {
+    margin-left: 1em;
+}

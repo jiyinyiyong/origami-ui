@@ -2,7 +2,7 @@
   "name": "origami-ui",
   "version": "0.0.1",
   "description": "Personal UI styles",
-  "main": "lib/index.js",
+  "main": "style/index.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,7 @@
     "del": "^1.1.1",
     "gulp": "^3.8.11",
     "gulp-cirru-script": "^0.1.1",
+    "react": "^0.13.3",
     "rsyncwrapper": "^0.4.2",
     "run-sequence": "^1.0.2",
     "stir-template": "^0.1.4",
