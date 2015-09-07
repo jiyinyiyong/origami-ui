@@ -3,5 +3,9 @@
 @import url(layout/page.css);
 
 .app-page {
-    padding: 100px 0 400px;
+  padding: 0px 0 400px;
+}
+
+img.page-logo {
+  height: 400px;
 }

@@ -22,7 +22,7 @@ var tag $ \ (className (children))
         tag ":heading level-1" ":Origami UI"
         tag :line ":A personal UI collection for small single page apps."
         a ({} (:href :https://github.com/origami-ui/origami-ui/)) ":GitHub repo"
-        img $ {} (:className :is-block)
+        img $ {} (:className ":is-block page-logo")
           :src :http://origami-ui.org/logo/origami-ui.png
 
       tag :demo-board

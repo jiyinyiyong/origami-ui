@@ -1,11 +1,15 @@
 
-.line {}
+.line {
+    padding: 0.2em 0;
+    line-height: 1.8em;
+}
 
 .line.is-minor {
     color: hsla(0, 0%, 0%, 0.5);
 }
 
 .line > * + div,
+.line > * + a,
 .line > * + input,
 .line > * + span {
     margin-left: 1em;

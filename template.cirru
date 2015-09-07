@@ -13,12 +13,13 @@ var
     html null
       head null
         title null ":Origami UI"
-        meta $ object (:charset :utf-8)
-        link $ object (:rel :icon)
+        meta $ {} (:charset :utf-8)
+        link $ {} (:rel :icon)
           :href :http://origami-ui.org/logo/origami-icon.png
-        link $ object (:rel :stylesheet)
-          :href :style/main.css
-        script $ object (:src data.vendor) (:defer true)
-        script $ object (:src data.main) (:defer true)
+        cond data.dev undefined
+          link $ {} (:rel :stylesheet)
+            :href data.style
+        script $ {} (:src data.vendor) (:defer true)
+        script $ {} (:src data.main) (:defer true)
       body null
         React.renderToString (Page)

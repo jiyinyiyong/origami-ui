@@ -4,6 +4,17 @@
     color: white;
     padding: 0 1em;
     font-size: 12px;
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: 300ms;
+    -webkit-user-select: none;
+}
+
+.button:hover {
+    transform: scale(1.03);
+}
+.button:active {
+    opacity: 0.7;
 }
 
 .button.is-attract {
